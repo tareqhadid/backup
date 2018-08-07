@@ -22,12 +22,27 @@
             <stringProp name="Argument.value">${__P(param_Duration,60)}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
+          <elementProp name="param_MainURL" elementType="Argument">
+            <stringProp name="Argument.name">param_MainURL</stringProp>
+            <stringProp name="Argument.value">194.165.147.114</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="Protocol" elementType="Argument">
+            <stringProp name="Argument.name">Protocol</stringProp>
+            <stringProp name="Argument.value">http</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="param_Thinktime" elementType="Argument">
+            <stringProp name="Argument.name">param_Thinktime</stringProp>
+            <stringProp name="Argument.value">2500</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
         </collectionProp>
       </elementProp>
       <stringProp name="TestPlan.user_define_classpath"></stringProp>
     </TestPlan>
     <hashTree>
-      <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
+      <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="false">
         <collectionProp name="Arguments.arguments">
           <elementProp name="param_MainURL" elementType="Argument">
             <stringProp name="Argument.name">param_MainURL</stringProp>
@@ -78,7 +93,7 @@
         <stringProp name="CookieManager.implementation">org.apache.jmeter.protocol.http.control.HC4CookieHandler</stringProp>
       </CookieManager>
       <hashTree/>
-      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="GAM Testing Pool" enabled="true">
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="GAM_Testing_Pool" enabled="true">
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
@@ -9654,7 +9669,7 @@ Content-Type: application/octet-stream&#xd;
             <sampleCount>true</sampleCount>
           </value>
         </objProp>
-        <stringProp name="filename"></stringProp>
+        <stringProp name="filename">D:\PerfTraining\GAMTest_10V_1mins_001.jtl</stringProp>
       </ResultCollector>
       <hashTree/>
       <ResultCollector guiclass="StatVisualizer" testclass="ResultCollector" testname="Aggregate Report" enabled="false">
@@ -9690,7 +9705,7 @@ Content-Type: application/octet-stream&#xd;
             <connectTime>true</connectTime>
           </value>
         </objProp>
-        <stringProp name="filename"></stringProp>
+        <stringProp name="filename">D:\PerfTraining\GAMTest_10V_1mins_001.jtl</stringProp>
       </ResultCollector>
       <hashTree/>
     </hashTree>
