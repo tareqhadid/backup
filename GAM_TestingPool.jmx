@@ -202,10 +202,10 @@
           <intProp name="ThroughputController.maxThroughput">1</intProp>
           <FloatProperty>
             <name>ThroughputController.percentThroughput</name>
-            <value>100.0</value>
+            <value>5.0</value>
             <savedValue>0.0</savedValue>
           </FloatProperty>
-          <stringProp name="TestPlan.comments">25</stringProp>
+          <stringProp name="TestPlan.comments">5</stringProp>
         </ThroughputController>
         <hashTree>
           <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="GAM_002_Navigate_To_CreateBump" enabled="true">
@@ -9690,7 +9690,7 @@ Content-Type: application/octet-stream&#xd;
             <sampleCount>true</sampleCount>
           </value>
         </objProp>
-        <stringProp name="filename"></stringProp>
+        <stringProp name="filename">D:\PerfTraining\GAMTest_100V_1Hour_002.jtl</stringProp>
       </ResultCollector>
       <hashTree/>
       <ResultCollector guiclass="StatVisualizer" testclass="ResultCollector" testname="Aggregate Report" enabled="false">
