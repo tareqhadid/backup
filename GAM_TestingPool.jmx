@@ -1347,7 +1347,7 @@
               <hashTree/>
               <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
                 <collectionProp name="Asserion.test_strings">
-                  <stringProp name="1682464001"> تمت عملية الحفظ بنجاح</stringProp>
+                  <stringProp name="936781961"> تمت عملية الحفظ بنجاحmnmnmnm</stringProp>
                 </collectionProp>
                 <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
                 <boolProp name="Assertion.assume_success">false</boolProp>
@@ -9678,7 +9678,7 @@ Content-Type: application/octet-stream&#xd;
             <sampleCount>true</sampleCount>
           </value>
         </objProp>
-        <stringProp name="filename">D:\PerfTraining\GAMTest_10V_1mins_007.jtl</stringProp>
+        <stringProp name="filename">D:\PerfTraining\GAMTest_10V_1mins_008.jtl</stringProp>
       </ResultCollector>
       <hashTree/>
       <ResultCollector guiclass="StatVisualizer" testclass="ResultCollector" testname="Aggregate Report" enabled="true">
