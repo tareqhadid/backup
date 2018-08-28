@@ -22,6 +22,11 @@
             <stringProp name="Argument.value">${__P(param_Duration,3600)}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
+          <elementProp name="param_Thinktime" elementType="Argument">
+            <stringProp name="Argument.name">param_Thinktime</stringProp>
+            <stringProp name="Argument.value">2500</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
         </collectionProp>
       </elementProp>
       <stringProp name="TestPlan.user_define_classpath"></stringProp>
@@ -4973,7 +4978,7 @@
             </hashTree>
           </hashTree>
         </hashTree>
-        <TestAction guiclass="TestActionGui" testclass="TestAction" testname="Test Action" enabled="false">
+        <TestAction guiclass="TestActionGui" testclass="TestAction" testname="Test Action" enabled="true">
           <intProp name="ActionProcessor.action">1</intProp>
           <intProp name="ActionProcessor.target">0</intProp>
           <stringProp name="ActionProcessor.duration">${param_Thinktime}</stringProp>
@@ -8270,8 +8275,8 @@ Content-Type: application/octet-stream&#xd;
             <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="929 /ar/eservices/clearance.aspx?csrt=9189948545362963602" enabled="true">
               <elementProp name="HTTPsampler.Files" elementType="HTTPFileArgs">
                 <collectionProp name="HTTPFileArgs.files">
-                  <elementProp name="/home/GAMScripts/scripts/backup/AlDarDarak.jpg" elementType="HTTPFileArg">
-                    <stringProp name="File.path">/home/GAMScripts/scripts/backup/AlDarDarak.jpg</stringProp>
+                  <elementProp name="/home/GAMScripts/scripts/backup/AlDarDarako.jpg" elementType="HTTPFileArg">
+                    <stringProp name="File.path">/home/GAMScripts/scripts/backup/AlDarDarako.jpg</stringProp>
                     <stringProp name="File.paramname">ctl00$ContentPlaceHolder1$FileUploadwafah</stringProp>
                     <stringProp name="File.mimetype">image/jpeg</stringProp>
                   </elementProp>
@@ -8493,9 +8498,10 @@ Content-Type: application/octet-stream&#xd;
           <intProp name="ThroughputController.maxThroughput">1</intProp>
           <FloatProperty>
             <name>ThroughputController.percentThroughput</name>
-            <value>25.0</value>
+            <value>100.0</value>
             <savedValue>0.0</savedValue>
           </FloatProperty>
+          <stringProp name="TestPlan.comments">25</stringProp>
         </ThroughputController>
         <hashTree>
           <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="GAM_001_Navigate_To_CompleteServices" enabled="true">
@@ -8597,7 +8603,7 @@ Content-Type: application/octet-stream&#xd;
               <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
                 <collectionProp name="Arguments.arguments"/>
               </elementProp>
-              <stringProp name="HTTPSampler.domain">194.165.147.114</stringProp>
+              <stringProp name="HTTPSampler.domain">${param_MainURL}</stringProp>
               <stringProp name="HTTPSampler.port"></stringProp>
               <stringProp name="HTTPSampler.connect_timeout"></stringProp>
               <stringProp name="HTTPSampler.response_timeout"></stringProp>
@@ -8718,9 +8724,16 @@ Content-Type: application/octet-stream&#xd;
                   <elementProp name="__SCROLLPOSITIONY" elementType="HTTPArgument">
                     <boolProp name="HTTPArgument.always_encode">false</boolProp>
                     <stringProp name="Argument.name">__SCROLLPOSITIONY</stringProp>
-                    <stringProp name="Argument.value">428</stringProp>
+                    <stringProp name="Argument.value">342</stringProp>
                     <stringProp name="Argument.metadata">=</stringProp>
                     <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                  <elementProp name="__VIEWSTATEENCRYPTED" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.value"></stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                    <stringProp name="Argument.name">__VIEWSTATEENCRYPTED</stringProp>
                   </elementProp>
                   <elementProp name="__EVENTVALIDATION" elementType="HTTPArgument">
                     <boolProp name="HTTPArgument.always_encode">true</boolProp>
@@ -8950,9 +8963,16 @@ Content-Type: application/octet-stream&#xd;
                   <elementProp name="__SCROLLPOSITIONY" elementType="HTTPArgument">
                     <boolProp name="HTTPArgument.always_encode">false</boolProp>
                     <stringProp name="Argument.name">__SCROLLPOSITIONY</stringProp>
-                    <stringProp name="Argument.value">428</stringProp>
+                    <stringProp name="Argument.value">342</stringProp>
                     <stringProp name="Argument.metadata">=</stringProp>
                     <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                  <elementProp name="__VIEWSTATEENCRYPTED" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.value"></stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                    <stringProp name="Argument.name">__VIEWSTATEENCRYPTED</stringProp>
                   </elementProp>
                   <elementProp name="__EVENTVALIDATION" elementType="HTTPArgument">
                     <boolProp name="HTTPArgument.always_encode">true</boolProp>
@@ -9186,6 +9206,13 @@ Content-Type: application/octet-stream&#xd;
                     <stringProp name="Argument.metadata">=</stringProp>
                     <boolProp name="HTTPArgument.use_equals">true</boolProp>
                   </elementProp>
+                  <elementProp name="__VIEWSTATEENCRYPTED" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.value"></stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                    <stringProp name="Argument.name">__VIEWSTATEENCRYPTED</stringProp>
+                  </elementProp>
                   <elementProp name="__EVENTVALIDATION" elementType="HTTPArgument">
                     <boolProp name="HTTPArgument.always_encode">true</boolProp>
                     <stringProp name="Argument.name">__EVENTVALIDATION</stringProp>
@@ -9418,6 +9445,13 @@ Content-Type: application/octet-stream&#xd;
                     <stringProp name="Argument.metadata">=</stringProp>
                     <boolProp name="HTTPArgument.use_equals">true</boolProp>
                   </elementProp>
+                  <elementProp name="__VIEWSTATEENCRYPTED" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.value"></stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                    <stringProp name="Argument.name">__VIEWSTATEENCRYPTED</stringProp>
+                  </elementProp>
                   <elementProp name="__EVENTVALIDATION" elementType="HTTPArgument">
                     <boolProp name="HTTPArgument.always_encode">true</boolProp>
                     <stringProp name="Argument.name">__EVENTVALIDATION</stringProp>
@@ -9649,6 +9683,13 @@ Content-Type: application/octet-stream&#xd;
                     <stringProp name="Argument.value">737</stringProp>
                     <stringProp name="Argument.metadata">=</stringProp>
                     <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  </elementProp>
+                  <elementProp name="__VIEWSTATEENCRYPTED" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.value"></stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                    <stringProp name="Argument.name">__VIEWSTATEENCRYPTED</stringProp>
                   </elementProp>
                   <elementProp name="__EVENTVALIDATION" elementType="HTTPArgument">
                     <boolProp name="HTTPArgument.always_encode">true</boolProp>
