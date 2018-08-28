@@ -11602,7 +11602,7 @@ Content-Type: application/octet-stream&#xd;
           <TestAction guiclass="TestActionGui" testclass="TestAction" testname="Test Action" enabled="true">
             <intProp name="ActionProcessor.action">1</intProp>
             <intProp name="ActionProcessor.target">0</intProp>
-            <stringProp name="ActionProcessor.duration"></stringProp>
+            <stringProp name="ActionProcessor.duration">${param_Thinktime}</stringProp>
           </TestAction>
           <hashTree/>
           <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="GAM_009_LandUse_003_EnterLandInformation" enabled="true">
@@ -11823,7 +11823,7 @@ Content-Type: application/octet-stream&#xd;
           <TestAction guiclass="TestActionGui" testclass="TestAction" testname="Test Action" enabled="true">
             <intProp name="ActionProcessor.action">1</intProp>
             <intProp name="ActionProcessor.target">0</intProp>
-            <stringProp name="ActionProcessor.duration"></stringProp>
+            <stringProp name="ActionProcessor.duration">${param_Thinktime}</stringProp>
           </TestAction>
           <hashTree/>
           <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="GAM_009_LandUse_004_SubmitRequest" enabled="true">
@@ -11984,7 +11984,7 @@ Content-Type: application/octet-stream&#xd;
           <TestAction guiclass="TestActionGui" testclass="TestAction" testname="Test Action" enabled="true">
             <intProp name="ActionProcessor.action">1</intProp>
             <intProp name="ActionProcessor.target">0</intProp>
-            <stringProp name="ActionProcessor.duration"></stringProp>
+            <stringProp name="ActionProcessor.duration">${param_Thinktime}</stringProp>
           </TestAction>
           <hashTree/>
         </hashTree>
