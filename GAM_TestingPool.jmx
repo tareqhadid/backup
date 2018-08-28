@@ -4978,11 +4978,9 @@
             </hashTree>
           </hashTree>
         </hashTree>
-        <TestAction guiclass="TestActionGui" testclass="TestAction" testname="Test Action" enabled="true">
-          <intProp name="ActionProcessor.action">1</intProp>
-          <intProp name="ActionProcessor.target">0</intProp>
-          <stringProp name="ActionProcessor.duration">${param_Thinktime}</stringProp>
-        </TestAction>
+        <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="param_Thinktime" enabled="true">
+          <stringProp name="ConstantTimer.delay">${param_Thinktime}</stringProp>
+        </ConstantTimer>
         <hashTree/>
         <ThroughputController guiclass="ThroughputControllerGui" testclass="ThroughputController" testname="Clearance" enabled="true">
           <intProp name="ThroughputController.style">1</intProp>
@@ -5079,11 +5077,9 @@
               <hashTree/>
             </hashTree>
           </hashTree>
-          <TestAction guiclass="TestActionGui" testclass="TestAction" testname="Test Action" enabled="true">
-            <intProp name="ActionProcessor.action">1</intProp>
-            <intProp name="ActionProcessor.target">0</intProp>
-            <stringProp name="ActionProcessor.duration">${param_Thinktime}</stringProp>
-          </TestAction>
+          <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="param_Thinktime" enabled="true">
+            <stringProp name="ConstantTimer.delay">${param_Thinktime}</stringProp>
+          </ConstantTimer>
           <hashTree/>
           <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="GAM_006_Navigate_To_Clearance" enabled="true">
             <boolProp name="TransactionController.includeTimers">false</boolProp>
@@ -5163,11 +5159,9 @@
               <hashTree/>
             </hashTree>
           </hashTree>
-          <TestAction guiclass="TestActionGui" testclass="TestAction" testname="Test Action" enabled="true">
-            <intProp name="ActionProcessor.action">1</intProp>
-            <intProp name="ActionProcessor.target">0</intProp>
-            <stringProp name="ActionProcessor.duration">${param_Thinktime}</stringProp>
-          </TestAction>
+          <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="param_Thinktime" enabled="true">
+            <stringProp name="ConstantTimer.delay">${param_Thinktime}</stringProp>
+          </ConstantTimer>
           <hashTree/>
           <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="GAM_006_Clearance_001_Select_ConcernedParty_Dropdown" enabled="true">
             <boolProp name="TransactionController.includeTimers">false</boolProp>
@@ -5578,11 +5572,9 @@
               <hashTree/>
             </hashTree>
           </hashTree>
-          <TestAction guiclass="TestActionGui" testclass="TestAction" testname="Test Action" enabled="true">
-            <intProp name="ActionProcessor.action">1</intProp>
-            <intProp name="ActionProcessor.target">0</intProp>
-            <stringProp name="ActionProcessor.duration">${param_Thinktime}</stringProp>
-          </TestAction>
+          <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="param_Thinktime" enabled="true">
+            <stringProp name="ConstantTimer.delay">${param_Thinktime}</stringProp>
+          </ConstantTimer>
           <hashTree/>
           <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="GAM_006_Clearance_002_FillNationalNo" enabled="true">
             <boolProp name="TransactionController.includeTimers">false</boolProp>
@@ -6547,11 +6539,9 @@ Content-Type: application/octet-stream&#xd;
               <hashTree/>
             </hashTree>
           </hashTree>
-          <TestAction guiclass="TestActionGui" testclass="TestAction" testname="Test Action" enabled="true">
-            <intProp name="ActionProcessor.action">1</intProp>
-            <intProp name="ActionProcessor.target">0</intProp>
-            <stringProp name="ActionProcessor.duration">${param_Thinktime}</stringProp>
-          </TestAction>
+          <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="param_Thinktime" enabled="true">
+            <stringProp name="ConstantTimer.delay">${param_Thinktime}</stringProp>
+          </ConstantTimer>
           <hashTree/>
           <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="GAM_006_Clearance_003_IDNo" enabled="true">
             <boolProp name="TransactionController.includeTimers">false</boolProp>
@@ -7516,11 +7506,9 @@ Content-Type: application/octet-stream&#xd;
               <hashTree/>
             </hashTree>
           </hashTree>
-          <TestAction guiclass="TestActionGui" testclass="TestAction" testname="Test Action" enabled="true">
-            <intProp name="ActionProcessor.action">1</intProp>
-            <intProp name="ActionProcessor.target">0</intProp>
-            <stringProp name="ActionProcessor.duration">${param_Thinktime}</stringProp>
-          </TestAction>
+          <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="param_Thinktime" enabled="true">
+            <stringProp name="ConstantTimer.delay">${param_Thinktime}</stringProp>
+          </ConstantTimer>
           <hashTree/>
           <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="GAM_006_Clearance_004_SubmitRequest" enabled="true">
             <boolProp name="TransactionController.includeTimers">false</boolProp>
@@ -8486,11 +8474,9 @@ Content-Type: application/octet-stream&#xd;
             </hashTree>
           </hashTree>
         </hashTree>
-        <TestAction guiclass="TestActionGui" testclass="TestAction" testname="Test Action" enabled="true">
-          <intProp name="ActionProcessor.action">1</intProp>
-          <intProp name="ActionProcessor.target">0</intProp>
-          <stringProp name="ActionProcessor.duration">${param_Thinktime}</stringProp>
-        </TestAction>
+        <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="param_Thinktime" enabled="true">
+          <stringProp name="ConstantTimer.delay">${param_Thinktime}</stringProp>
+        </ConstantTimer>
         <hashTree/>
         <ThroughputController guiclass="ThroughputControllerGui" testclass="ThroughputController" testname="Insect" enabled="true">
           <intProp name="ThroughputController.style">1</intProp>
@@ -8588,11 +8574,9 @@ Content-Type: application/octet-stream&#xd;
               <hashTree/>
             </hashTree>
           </hashTree>
-          <TestAction guiclass="TestActionGui" testclass="TestAction" testname="Test Action" enabled="true">
-            <intProp name="ActionProcessor.action">1</intProp>
-            <intProp name="ActionProcessor.target">0</intProp>
-            <stringProp name="ActionProcessor.duration">${param_Thinktime}</stringProp>
-          </TestAction>
+          <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="param_Thinktime" enabled="true">
+            <stringProp name="ConstantTimer.delay">${param_Thinktime}</stringProp>
+          </ConstantTimer>
           <hashTree/>
           <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="GAM_007_Navigate_To_Insect" enabled="true">
             <boolProp name="TransactionController.includeTimers">false</boolProp>
@@ -8672,11 +8656,9 @@ Content-Type: application/octet-stream&#xd;
               <hashTree/>
             </hashTree>
           </hashTree>
-          <TestAction guiclass="TestActionGui" testclass="TestAction" testname="Test Action" enabled="true">
-            <intProp name="ActionProcessor.action">1</intProp>
-            <intProp name="ActionProcessor.target">0</intProp>
-            <stringProp name="ActionProcessor.duration">${param_Thinktime}</stringProp>
-          </TestAction>
+          <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="param_Thinktime" enabled="true">
+            <stringProp name="ConstantTimer.delay">${param_Thinktime}</stringProp>
+          </ConstantTimer>
           <hashTree/>
           <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="GAM_007_Insect_001_SelectInsect_Dropdown" enabled="true">
             <boolProp name="TransactionController.includeTimers">false</boolProp>
@@ -8911,11 +8893,9 @@ Content-Type: application/octet-stream&#xd;
               <hashTree/>
             </hashTree>
           </hashTree>
-          <TestAction guiclass="TestActionGui" testclass="TestAction" testname="Test Action" enabled="true">
-            <intProp name="ActionProcessor.action">1</intProp>
-            <intProp name="ActionProcessor.target">0</intProp>
-            <stringProp name="ActionProcessor.duration">${param_Thinktime}</stringProp>
-          </TestAction>
+          <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="param_Thinktime" enabled="true">
+            <stringProp name="ConstantTimer.delay">${param_Thinktime}</stringProp>
+          </ConstantTimer>
           <hashTree/>
           <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="GAM_007_Insect_002_SelectDistrict_Dropdown" enabled="true">
             <boolProp name="TransactionController.includeTimers">false</boolProp>
@@ -9150,11 +9130,9 @@ Content-Type: application/octet-stream&#xd;
               <hashTree/>
             </hashTree>
           </hashTree>
-          <TestAction guiclass="TestActionGui" testclass="TestAction" testname="Test Action" enabled="true">
-            <intProp name="ActionProcessor.action">1</intProp>
-            <intProp name="ActionProcessor.target">0</intProp>
-            <stringProp name="ActionProcessor.duration">${param_Thinktime}</stringProp>
-          </TestAction>
+          <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="param_Thinktime" enabled="true">
+            <stringProp name="ConstantTimer.delay">${param_Thinktime}</stringProp>
+          </ConstantTimer>
           <hashTree/>
           <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="GAM_007_Insect_003_SelectSubDistrict_Dropdown" enabled="true">
             <boolProp name="TransactionController.includeTimers">false</boolProp>
@@ -9389,11 +9367,9 @@ Content-Type: application/octet-stream&#xd;
               <hashTree/>
             </hashTree>
           </hashTree>
-          <TestAction guiclass="TestActionGui" testclass="TestAction" testname="Test Action" enabled="true">
-            <intProp name="ActionProcessor.action">1</intProp>
-            <intProp name="ActionProcessor.target">0</intProp>
-            <stringProp name="ActionProcessor.duration">${param_Thinktime}</stringProp>
-          </TestAction>
+          <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="param_Thinktime" enabled="true">
+            <stringProp name="ConstantTimer.delay">${param_Thinktime}</stringProp>
+          </ConstantTimer>
           <hashTree/>
           <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="GAM_007_Insect_004_SelectVillage_Dropdown" enabled="true">
             <boolProp name="TransactionController.includeTimers">false</boolProp>
@@ -9628,11 +9604,9 @@ Content-Type: application/octet-stream&#xd;
               <hashTree/>
             </hashTree>
           </hashTree>
-          <TestAction guiclass="TestActionGui" testclass="TestAction" testname="Test Action" enabled="true">
-            <intProp name="ActionProcessor.action">1</intProp>
-            <intProp name="ActionProcessor.target">0</intProp>
-            <stringProp name="ActionProcessor.duration">${param_Thinktime}</stringProp>
-          </TestAction>
+          <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="param_Thinktime" enabled="true">
+            <stringProp name="ConstantTimer.delay">${param_Thinktime}</stringProp>
+          </ConstantTimer>
           <hashTree/>
           <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="GAM_007_Insect_005_SubmitRequest" enabled="true">
             <boolProp name="TransactionController.includeTimers">false</boolProp>
@@ -9873,11 +9847,9 @@ Content-Type: application/octet-stream&#xd;
             </hashTree>
           </hashTree>
         </hashTree>
-        <TestAction guiclass="TestActionGui" testclass="TestAction" testname="Test Action" enabled="true">
-          <intProp name="ActionProcessor.action">1</intProp>
-          <intProp name="ActionProcessor.target">0</intProp>
-          <stringProp name="ActionProcessor.duration">${param_Thinktime}</stringProp>
-        </TestAction>
+        <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="param_Thinktime" enabled="true">
+          <stringProp name="ConstantTimer.delay">${param_Thinktime}</stringProp>
+        </ConstantTimer>
         <hashTree/>
         <ThroughputController guiclass="ThroughputControllerGui" testclass="ThroughputController" testname="TaxPro" enabled="true">
           <intProp name="ThroughputController.style">1</intProp>
@@ -9977,11 +9949,9 @@ Content-Type: application/octet-stream&#xd;
               <hashTree/>
             </hashTree>
           </hashTree>
-          <TestAction guiclass="TestActionGui" testclass="TestAction" testname="Test Action" enabled="true">
-            <intProp name="ActionProcessor.action">1</intProp>
-            <intProp name="ActionProcessor.target">0</intProp>
-            <stringProp name="ActionProcessor.duration">${param_Thinktime}</stringProp>
-          </TestAction>
+          <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="param_Thinktime" enabled="true">
+            <stringProp name="ConstantTimer.delay">${param_Thinktime}</stringProp>
+          </ConstantTimer>
           <hashTree/>
           <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="GAM_001_Navigate_To_CompleteServices" enabled="true">
             <boolProp name="TransactionController.includeTimers">false</boolProp>
@@ -10074,11 +10044,9 @@ Content-Type: application/octet-stream&#xd;
               <hashTree/>
             </hashTree>
           </hashTree>
-          <TestAction guiclass="TestActionGui" testclass="TestAction" testname="Test Action" enabled="true">
-            <intProp name="ActionProcessor.action">1</intProp>
-            <intProp name="ActionProcessor.target">0</intProp>
-            <stringProp name="ActionProcessor.duration">${param_Thinktime}</stringProp>
-          </TestAction>
+          <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="param_Thinktime" enabled="true">
+            <stringProp name="ConstantTimer.delay">${param_Thinktime}</stringProp>
+          </ConstantTimer>
           <hashTree/>
           <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="GAM_008_Navigate_To_TaxPro" enabled="true">
             <boolProp name="TransactionController.includeTimers">false</boolProp>
@@ -10171,11 +10139,9 @@ Content-Type: application/octet-stream&#xd;
               <hashTree/>
             </hashTree>
           </hashTree>
-          <TestAction guiclass="TestActionGui" testclass="TestAction" testname="Test Action" enabled="true">
-            <intProp name="ActionProcessor.action">1</intProp>
-            <intProp name="ActionProcessor.target">0</intProp>
-            <stringProp name="ActionProcessor.duration">${param_Thinktime}</stringProp>
-          </TestAction>
+          <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="param_Thinktime" enabled="true">
+            <stringProp name="ConstantTimer.delay">${param_Thinktime}</stringProp>
+          </ConstantTimer>
           <hashTree/>
           <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="GAM_001_Login" enabled="true">
             <boolProp name="TransactionController.includeTimers">false</boolProp>
@@ -10347,11 +10313,9 @@ Content-Type: application/octet-stream&#xd;
               <hashTree/>
             </hashTree>
           </hashTree>
-          <TestAction guiclass="TestActionGui" testclass="TestAction" testname="Test Action" enabled="true">
-            <intProp name="ActionProcessor.action">1</intProp>
-            <intProp name="ActionProcessor.target">0</intProp>
-            <stringProp name="ActionProcessor.duration">${param_Thinktime}</stringProp>
-          </TestAction>
+          <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="param_Thinktime" enabled="true">
+            <stringProp name="ConstantTimer.delay">${param_Thinktime}</stringProp>
+          </ConstantTimer>
           <hashTree/>
           <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="GAM_008_TaxPro_001_ShowInformation" enabled="true">
             <boolProp name="TransactionController.includeTimers">false</boolProp>
@@ -10417,11 +10381,9 @@ Content-Type: application/octet-stream&#xd;
               <hashTree/>
             </hashTree>
           </hashTree>
-          <TestAction guiclass="TestActionGui" testclass="TestAction" testname="Test Action" enabled="true">
-            <intProp name="ActionProcessor.action">1</intProp>
-            <intProp name="ActionProcessor.target">0</intProp>
-            <stringProp name="ActionProcessor.duration">${param_Thinktime}</stringProp>
-          </TestAction>
+          <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="param_Thinktime" enabled="true">
+            <stringProp name="ConstantTimer.delay">${param_Thinktime}</stringProp>
+          </ConstantTimer>
           <hashTree/>
           <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="GAM_008_TaxPro_002_SelectAreaToPay" enabled="true">
             <boolProp name="TransactionController.includeTimers">false</boolProp>
@@ -10557,11 +10519,9 @@ Content-Type: application/octet-stream&#xd;
               <hashTree/>
             </hashTree>
           </hashTree>
-          <TestAction guiclass="TestActionGui" testclass="TestAction" testname="Test Action" enabled="true">
-            <intProp name="ActionProcessor.action">1</intProp>
-            <intProp name="ActionProcessor.target">0</intProp>
-            <stringProp name="ActionProcessor.duration">${param_Thinktime}</stringProp>
-          </TestAction>
+          <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="param_Thinktime" enabled="true">
+            <stringProp name="ConstantTimer.delay">${param_Thinktime}</stringProp>
+          </ConstantTimer>
           <hashTree/>
           <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="GAM_008_TaxPro_003_ClickOnDirectPayment" enabled="true">
             <boolProp name="TransactionController.includeTimers">false</boolProp>
@@ -10752,11 +10712,9 @@ Content-Type: application/octet-stream&#xd;
               <hashTree/>
             </hashTree>
           </hashTree>
-          <TestAction guiclass="TestActionGui" testclass="TestAction" testname="Test Action" enabled="true">
-            <intProp name="ActionProcessor.action">1</intProp>
-            <intProp name="ActionProcessor.target">0</intProp>
-            <stringProp name="ActionProcessor.duration">${param_Thinktime}</stringProp>
-          </TestAction>
+          <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="param_Thinktime" enabled="true">
+            <stringProp name="ConstantTimer.delay">${param_Thinktime}</stringProp>
+          </ConstantTimer>
           <hashTree/>
           <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="GAM_008_TaxPro_004_ClickOnContinuePayment" enabled="true">
             <boolProp name="TransactionController.includeTimers">false</boolProp>
@@ -10909,11 +10867,9 @@ Content-Type: application/octet-stream&#xd;
             </hashTree>
           </hashTree>
         </hashTree>
-        <TestAction guiclass="TestActionGui" testclass="TestAction" testname="Test Action" enabled="true">
-          <intProp name="ActionProcessor.action">1</intProp>
-          <intProp name="ActionProcessor.target">0</intProp>
-          <stringProp name="ActionProcessor.duration">${param_Thinktime}</stringProp>
-        </TestAction>
+        <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="param_Thinktime" enabled="true">
+          <stringProp name="ConstantTimer.delay">${param_Thinktime}</stringProp>
+        </ConstantTimer>
         <hashTree/>
         <ThroughputController guiclass="ThroughputControllerGui" testclass="ThroughputController" testname="LandUse" enabled="true">
           <intProp name="ThroughputController.style">1</intProp>
@@ -10986,11 +10942,9 @@ Content-Type: application/octet-stream&#xd;
               <hashTree/>
             </hashTree>
           </hashTree>
-          <TestAction guiclass="TestActionGui" testclass="TestAction" testname="Test Action" enabled="true">
-            <intProp name="ActionProcessor.action">1</intProp>
-            <intProp name="ActionProcessor.target">0</intProp>
-            <stringProp name="ActionProcessor.duration">${param_Thinktime}</stringProp>
-          </TestAction>
+          <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="param_Thinktime" enabled="true">
+            <stringProp name="ConstantTimer.delay">${param_Thinktime}</stringProp>
+          </ConstantTimer>
           <hashTree/>
           <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="GAM_001_Navigate_To_CompleteServices" enabled="true">
             <boolProp name="TransactionController.includeTimers">false</boolProp>
@@ -11056,11 +11010,9 @@ Content-Type: application/octet-stream&#xd;
               <hashTree/>
             </hashTree>
           </hashTree>
-          <TestAction guiclass="TestActionGui" testclass="TestAction" testname="Test Action" enabled="true">
-            <intProp name="ActionProcessor.action">1</intProp>
-            <intProp name="ActionProcessor.target">0</intProp>
-            <stringProp name="ActionProcessor.duration">${param_Thinktime}</stringProp>
-          </TestAction>
+          <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="param_Thinktime" enabled="true">
+            <stringProp name="ConstantTimer.delay">${param_Thinktime}</stringProp>
+          </ConstantTimer>
           <hashTree/>
           <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="GAM_009_Navigate_To_LandUse" enabled="true">
             <boolProp name="TransactionController.includeTimers">false</boolProp>
@@ -11153,11 +11105,9 @@ Content-Type: application/octet-stream&#xd;
               <hashTree/>
             </hashTree>
           </hashTree>
-          <TestAction guiclass="TestActionGui" testclass="TestAction" testname="Test Action" enabled="true">
-            <intProp name="ActionProcessor.action">1</intProp>
-            <intProp name="ActionProcessor.target">0</intProp>
-            <stringProp name="ActionProcessor.duration">${param_Thinktime}</stringProp>
-          </TestAction>
+          <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="param_Thinktime" enabled="true">
+            <stringProp name="ConstantTimer.delay">${param_Thinktime}</stringProp>
+          </ConstantTimer>
           <hashTree/>
           <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="GAM_009_LandUse_001_FillRequest" enabled="true">
             <boolProp name="TransactionController.includeTimers">false</boolProp>
@@ -11378,11 +11328,9 @@ Content-Type: application/octet-stream&#xd;
               <hashTree/>
             </hashTree>
           </hashTree>
-          <TestAction guiclass="TestActionGui" testclass="TestAction" testname="Test Action" enabled="true">
-            <intProp name="ActionProcessor.action">1</intProp>
-            <intProp name="ActionProcessor.target">0</intProp>
-            <stringProp name="ActionProcessor.duration">${param_Thinktime}</stringProp>
-          </TestAction>
+          <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="param_Thinktime" enabled="true">
+            <stringProp name="ConstantTimer.delay">${param_Thinktime}</stringProp>
+          </ConstantTimer>
           <hashTree/>
           <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="GAM_009_LandUse_002_CheckLandInformation" enabled="true">
             <boolProp name="TransactionController.includeTimers">false</boolProp>
@@ -11599,11 +11547,9 @@ Content-Type: application/octet-stream&#xd;
               <hashTree/>
             </hashTree>
           </hashTree>
-          <TestAction guiclass="TestActionGui" testclass="TestAction" testname="Test Action" enabled="true">
-            <intProp name="ActionProcessor.action">1</intProp>
-            <intProp name="ActionProcessor.target">0</intProp>
-            <stringProp name="ActionProcessor.duration">${param_Thinktime}</stringProp>
-          </TestAction>
+          <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="param_Thinktime" enabled="true">
+            <stringProp name="ConstantTimer.delay">${param_Thinktime}</stringProp>
+          </ConstantTimer>
           <hashTree/>
           <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="GAM_009_LandUse_003_EnterLandInformation" enabled="true">
             <boolProp name="TransactionController.includeTimers">false</boolProp>
@@ -11820,11 +11766,9 @@ Content-Type: application/octet-stream&#xd;
               <hashTree/>
             </hashTree>
           </hashTree>
-          <TestAction guiclass="TestActionGui" testclass="TestAction" testname="Test Action" enabled="true">
-            <intProp name="ActionProcessor.action">1</intProp>
-            <intProp name="ActionProcessor.target">0</intProp>
-            <stringProp name="ActionProcessor.duration">${param_Thinktime}</stringProp>
-          </TestAction>
+          <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="param_Thinktime" enabled="true">
+            <stringProp name="ConstantTimer.delay">${param_Thinktime}</stringProp>
+          </ConstantTimer>
           <hashTree/>
           <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="GAM_009_LandUse_004_SubmitRequest" enabled="true">
             <boolProp name="TransactionController.includeTimers">false</boolProp>
@@ -11981,13 +11925,15 @@ Content-Type: application/octet-stream&#xd;
               <hashTree/>
             </hashTree>
           </hashTree>
-          <TestAction guiclass="TestActionGui" testclass="TestAction" testname="Test Action" enabled="true">
-            <intProp name="ActionProcessor.action">1</intProp>
-            <intProp name="ActionProcessor.target">0</intProp>
-            <stringProp name="ActionProcessor.duration">${param_Thinktime}</stringProp>
-          </TestAction>
+          <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="param_Thinktime" enabled="true">
+            <stringProp name="ConstantTimer.delay">${param_Thinktime}</stringProp>
+          </ConstantTimer>
           <hashTree/>
         </hashTree>
+        <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="param_Thinktime" enabled="true">
+          <stringProp name="ConstantTimer.delay">${param_Thinktime}</stringProp>
+        </ConstantTimer>
+        <hashTree/>
       </hashTree>
       <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="false">
         <boolProp name="ResultCollector.error_logging">false</boolProp>
