@@ -94,7 +94,7 @@
       <hashTree>
         <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="All_Services" enabled="true"/>
         <hashTree>
-          <ThroughputController guiclass="ThroughputControllerGui" testclass="ThroughputController" testname="Order_Bump" enabled="true">
+          <ThroughputController guiclass="ThroughputControllerGui" testclass="ThroughputController" testname="Order_Bump" enabled="false">
             <intProp name="ThroughputController.style">1</intProp>
             <boolProp name="ThroughputController.perThread">false</boolProp>
             <intProp name="ThroughputController.maxThroughput">1</intProp>
@@ -1023,11 +1023,11 @@
               </hashTree>
             </hashTree>
           </hashTree>
-          <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="param_Thinktime" enabled="true">
+          <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="param_Thinktime" enabled="false">
             <stringProp name="ConstantTimer.delay">${param_Thinktime}</stringProp>
           </ConstantTimer>
           <hashTree/>
-          <ThroughputController guiclass="ThroughputControllerGui" testclass="ThroughputController" testname="Cut_Trees" enabled="true">
+          <ThroughputController guiclass="ThroughputControllerGui" testclass="ThroughputController" testname="Cut_Trees" enabled="false">
             <intProp name="ThroughputController.style">1</intProp>
             <boolProp name="ThroughputController.perThread">false</boolProp>
             <intProp name="ThroughputController.maxThroughput">1</intProp>
@@ -1956,11 +1956,11 @@
               </hashTree>
             </hashTree>
           </hashTree>
-          <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="param_Thinktime" enabled="true">
+          <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="param_Thinktime" enabled="false">
             <stringProp name="ConstantTimer.delay">${param_Thinktime}</stringProp>
           </ConstantTimer>
           <hashTree/>
-          <ThroughputController guiclass="ThroughputControllerGui" testclass="ThroughputController" testname="Put_Trash" enabled="true">
+          <ThroughputController guiclass="ThroughputControllerGui" testclass="ThroughputController" testname="Put_Trash" enabled="false">
             <intProp name="ThroughputController.style">1</intProp>
             <boolProp name="ThroughputController.perThread">false</boolProp>
             <intProp name="ThroughputController.maxThroughput">1</intProp>
@@ -2889,11 +2889,11 @@
               </hashTree>
             </hashTree>
           </hashTree>
-          <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="param_Thinktime" enabled="true">
+          <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="param_Thinktime" enabled="false">
             <stringProp name="ConstantTimer.delay">${param_Thinktime}</stringProp>
           </ConstantTimer>
           <hashTree/>
-          <ThroughputController guiclass="ThroughputControllerGui" testclass="ThroughputController" testname="Light_Maintenance" enabled="true">
+          <ThroughputController guiclass="ThroughputControllerGui" testclass="ThroughputController" testname="Light_Maintenance" enabled="false">
             <intProp name="ThroughputController.style">1</intProp>
             <boolProp name="ThroughputController.perThread">false</boolProp>
             <intProp name="ThroughputController.maxThroughput">1</intProp>
@@ -3822,11 +3822,11 @@
               </hashTree>
             </hashTree>
           </hashTree>
-          <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="param_Thinktime" enabled="true">
+          <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="param_Thinktime" enabled="false">
             <stringProp name="ConstantTimer.delay">${param_Thinktime}</stringProp>
           </ConstantTimer>
           <hashTree/>
-          <ThroughputController guiclass="ThroughputControllerGui" testclass="ThroughputController" testname="Clearance" enabled="true">
+          <ThroughputController guiclass="ThroughputControllerGui" testclass="ThroughputController" testname="Clearance" enabled="false">
             <intProp name="ThroughputController.style">1</intProp>
             <boolProp name="ThroughputController.perThread">false</boolProp>
             <intProp name="ThroughputController.maxThroughput">1</intProp>
@@ -6601,11 +6601,11 @@ Content-Type: application/octet-stream&#xd;
               </hashTree>
             </hashTree>
           </hashTree>
-          <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="param_Thinktime" enabled="true">
+          <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="param_Thinktime" enabled="false">
             <stringProp name="ConstantTimer.delay">${param_Thinktime}</stringProp>
           </ConstantTimer>
           <hashTree/>
-          <ThroughputController guiclass="ThroughputControllerGui" testclass="ThroughputController" testname="Insect" enabled="true">
+          <ThroughputController guiclass="ThroughputControllerGui" testclass="ThroughputController" testname="Insect" enabled="false">
             <intProp name="ThroughputController.style">1</intProp>
             <boolProp name="ThroughputController.perThread">false</boolProp>
             <intProp name="ThroughputController.maxThroughput">1</intProp>
@@ -7998,7 +7998,7 @@ Content-Type: application/octet-stream&#xd;
                 <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
                   <collectionProp name="Arguments.arguments"/>
                 </elementProp>
-                <stringProp name="HTTPSampler.domain">194.165.147.114</stringProp>
+                <stringProp name="HTTPSampler.domain">${param_MainURL}</stringProp>
                 <stringProp name="HTTPSampler.port"></stringProp>
                 <stringProp name="HTTPSampler.connect_timeout"></stringProp>
                 <stringProp name="HTTPSampler.response_timeout"></stringProp>
@@ -8089,7 +8089,7 @@ Content-Type: application/octet-stream&#xd;
                 <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
                   <collectionProp name="Arguments.arguments"/>
                 </elementProp>
-                <stringProp name="HTTPSampler.domain">194.165.147.114</stringProp>
+                <stringProp name="HTTPSampler.domain">${param_MainURL}</stringProp>
                 <stringProp name="HTTPSampler.port"></stringProp>
                 <stringProp name="HTTPSampler.connect_timeout"></stringProp>
                 <stringProp name="HTTPSampler.response_timeout"></stringProp>
@@ -8184,7 +8184,7 @@ Content-Type: application/octet-stream&#xd;
                 <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
                   <collectionProp name="Arguments.arguments"/>
                 </elementProp>
-                <stringProp name="HTTPSampler.domain">194.165.147.114</stringProp>
+                <stringProp name="HTTPSampler.domain">${param_MainURL}</stringProp>
                 <stringProp name="HTTPSampler.port"></stringProp>
                 <stringProp name="HTTPSampler.connect_timeout"></stringProp>
                 <stringProp name="HTTPSampler.response_timeout"></stringProp>
@@ -8350,7 +8350,7 @@ Content-Type: application/octet-stream&#xd;
                     </elementProp>
                   </collectionProp>
                 </elementProp>
-                <stringProp name="HTTPSampler.domain">194.165.147.114</stringProp>
+                <stringProp name="HTTPSampler.domain">${param_MainURL}</stringProp>
                 <stringProp name="HTTPSampler.port"></stringProp>
                 <stringProp name="HTTPSampler.connect_timeout"></stringProp>
                 <stringProp name="HTTPSampler.response_timeout"></stringProp>
@@ -8453,7 +8453,7 @@ Content-Type: application/octet-stream&#xd;
                 <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
                   <collectionProp name="Arguments.arguments"/>
                 </elementProp>
-                <stringProp name="HTTPSampler.domain">194.165.147.114</stringProp>
+                <stringProp name="HTTPSampler.domain">${param_MainURL}</stringProp>
                 <stringProp name="HTTPSampler.port"></stringProp>
                 <stringProp name="HTTPSampler.connect_timeout"></stringProp>
                 <stringProp name="HTTPSampler.response_timeout"></stringProp>
@@ -8564,7 +8564,7 @@ Content-Type: application/octet-stream&#xd;
                     </elementProp>
                   </collectionProp>
                 </elementProp>
-                <stringProp name="HTTPSampler.domain">194.165.147.114</stringProp>
+                <stringProp name="HTTPSampler.domain">${param_MainURL}</stringProp>
                 <stringProp name="HTTPSampler.port"></stringProp>
                 <stringProp name="HTTPSampler.connect_timeout"></stringProp>
                 <stringProp name="HTTPSampler.response_timeout"></stringProp>
@@ -8751,7 +8751,7 @@ Content-Type: application/octet-stream&#xd;
                     </elementProp>
                   </collectionProp>
                 </elementProp>
-                <stringProp name="HTTPSampler.domain">194.165.147.114</stringProp>
+                <stringProp name="HTTPSampler.domain">${param_MainURL}</stringProp>
                 <stringProp name="HTTPSampler.port"></stringProp>
                 <stringProp name="HTTPSampler.connect_timeout"></stringProp>
                 <stringProp name="HTTPSampler.response_timeout"></stringProp>
@@ -8932,7 +8932,7 @@ Content-Type: application/octet-stream&#xd;
                     </elementProp>
                   </collectionProp>
                 </elementProp>
-                <stringProp name="HTTPSampler.domain">194.165.147.114</stringProp>
+                <stringProp name="HTTPSampler.domain">${param_MainURL}</stringProp>
                 <stringProp name="HTTPSampler.port"></stringProp>
                 <stringProp name="HTTPSampler.connect_timeout"></stringProp>
                 <stringProp name="HTTPSampler.response_timeout"></stringProp>
@@ -9020,7 +9020,7 @@ Content-Type: application/octet-stream&#xd;
                 <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
                   <collectionProp name="Arguments.arguments"/>
                 </elementProp>
-                <stringProp name="HTTPSampler.domain">194.165.147.114</stringProp>
+                <stringProp name="HTTPSampler.domain">${param_MainURL}</stringProp>
                 <stringProp name="HTTPSampler.port"></stringProp>
                 <stringProp name="HTTPSampler.connect_timeout"></stringProp>
                 <stringProp name="HTTPSampler.response_timeout"></stringProp>
@@ -9084,7 +9084,7 @@ Content-Type: application/octet-stream&#xd;
                 <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
                   <collectionProp name="Arguments.arguments"/>
                 </elementProp>
-                <stringProp name="HTTPSampler.domain">194.165.147.114</stringProp>
+                <stringProp name="HTTPSampler.domain">${param_MainURL}</stringProp>
                 <stringProp name="HTTPSampler.port"></stringProp>
                 <stringProp name="HTTPSampler.connect_timeout"></stringProp>
                 <stringProp name="HTTPSampler.response_timeout"></stringProp>
@@ -9152,7 +9152,7 @@ Content-Type: application/octet-stream&#xd;
                 <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
                   <collectionProp name="Arguments.arguments"/>
                 </elementProp>
-                <stringProp name="HTTPSampler.domain">194.165.147.114</stringProp>
+                <stringProp name="HTTPSampler.domain">${param_MainURL}</stringProp>
                 <stringProp name="HTTPSampler.port"></stringProp>
                 <stringProp name="HTTPSampler.connect_timeout"></stringProp>
                 <stringProp name="HTTPSampler.response_timeout"></stringProp>
@@ -9367,7 +9367,7 @@ Content-Type: application/octet-stream&#xd;
                     </elementProp>
                   </collectionProp>
                 </elementProp>
-                <stringProp name="HTTPSampler.domain">194.165.147.114</stringProp>
+                <stringProp name="HTTPSampler.domain">${param_MainURL}</stringProp>
                 <stringProp name="HTTPSampler.port"></stringProp>
                 <stringProp name="HTTPSampler.connect_timeout"></stringProp>
                 <stringProp name="HTTPSampler.response_timeout"></stringProp>
@@ -9583,7 +9583,7 @@ Content-Type: application/octet-stream&#xd;
                     </elementProp>
                   </collectionProp>
                 </elementProp>
-                <stringProp name="HTTPSampler.domain">194.165.147.114</stringProp>
+                <stringProp name="HTTPSampler.domain">${param_MainURL}</stringProp>
                 <stringProp name="HTTPSampler.port"></stringProp>
                 <stringProp name="HTTPSampler.connect_timeout"></stringProp>
                 <stringProp name="HTTPSampler.response_timeout"></stringProp>
@@ -9802,7 +9802,7 @@ Content-Type: application/octet-stream&#xd;
                     </elementProp>
                   </collectionProp>
                 </elementProp>
-                <stringProp name="HTTPSampler.domain">194.165.147.114</stringProp>
+                <stringProp name="HTTPSampler.domain">${param_MainURL}</stringProp>
                 <stringProp name="HTTPSampler.port"></stringProp>
                 <stringProp name="HTTPSampler.connect_timeout"></stringProp>
                 <stringProp name="HTTPSampler.response_timeout"></stringProp>
@@ -9988,7 +9988,7 @@ Content-Type: application/octet-stream&#xd;
                     </elementProp>
                   </collectionProp>
                 </elementProp>
-                <stringProp name="HTTPSampler.domain">194.165.147.114</stringProp>
+                <stringProp name="HTTPSampler.domain">${param_MainURL}</stringProp>
                 <stringProp name="HTTPSampler.port"></stringProp>
                 <stringProp name="HTTPSampler.connect_timeout"></stringProp>
                 <stringProp name="HTTPSampler.response_timeout"></stringProp>
