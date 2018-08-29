@@ -8095,7 +8095,7 @@ Content-Type: application/octet-stream&#xd;
                 <stringProp name="HTTPSampler.response_timeout"></stringProp>
                 <stringProp name="HTTPSampler.protocol">${Protocol}</stringProp>
                 <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-                <stringProp name="HTTPSampler.path">ar/eservices/newservices.aspx</stringProp>
+                <stringProp name="HTTPSampler.path">/ar/eservices/newservices.aspx</stringProp>
                 <stringProp name="HTTPSampler.method">GET</stringProp>
                 <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
                 <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -8129,11 +8129,7 @@ Content-Type: application/octet-stream&#xd;
                     </elementProp>
                     <elementProp name="Referer" elementType="Header">
                       <stringProp name="Header.name">Referer</stringProp>
-                      <stringProp name="Header.value">https://194.165.147.114/ar/main/index.aspx</stringProp>
-                    </elementProp>
-                    <elementProp name="Connection" elementType="Header">
-                      <stringProp name="Header.name">Connection</stringProp>
-                      <stringProp name="Header.value">keep-alive</stringProp>
+                      <stringProp name="Header.value">http://${param_MainURL}/ar/main/index.aspx</stringProp>
                     </elementProp>
                     <elementProp name="Upgrade-Insecure-Requests" elementType="Header">
                       <stringProp name="Header.name">Upgrade-Insecure-Requests</stringProp>
@@ -8190,7 +8186,7 @@ Content-Type: application/octet-stream&#xd;
                 <stringProp name="HTTPSampler.response_timeout"></stringProp>
                 <stringProp name="HTTPSampler.protocol">${Protocol}</stringProp>
                 <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-                <stringProp name="HTTPSampler.path">ar/eservices/taxpro.aspx</stringProp>
+                <stringProp name="HTTPSampler.path">/ar/eservices/taxpro.aspx</stringProp>
                 <stringProp name="HTTPSampler.method">GET</stringProp>
                 <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
                 <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -8224,11 +8220,7 @@ Content-Type: application/octet-stream&#xd;
                     </elementProp>
                     <elementProp name="Referer" elementType="Header">
                       <stringProp name="Header.name">Referer</stringProp>
-                      <stringProp name="Header.value">https://194.165.147.114/ar/eservices/eservices.aspx</stringProp>
-                    </elementProp>
-                    <elementProp name="Connection" elementType="Header">
-                      <stringProp name="Header.name">Connection</stringProp>
-                      <stringProp name="Header.value">keep-alive</stringProp>
+                      <stringProp name="Header.value">http://194.165.147.114/ar/eservices/eservices.aspx</stringProp>
                     </elementProp>
                     <elementProp name="Upgrade-Insecure-Requests" elementType="Header">
                       <stringProp name="Header.name">Upgrade-Insecure-Requests</stringProp>
@@ -8356,7 +8348,7 @@ Content-Type: application/octet-stream&#xd;
                 <stringProp name="HTTPSampler.response_timeout"></stringProp>
                 <stringProp name="HTTPSampler.protocol">${Protocol}</stringProp>
                 <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-                <stringProp name="HTTPSampler.path">ar/eservices/login.aspx</stringProp>
+                <stringProp name="HTTPSampler.path">/ar/eservices/login.aspx</stringProp>
                 <stringProp name="HTTPSampler.method">POST</stringProp>
                 <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
                 <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -8390,7 +8382,7 @@ Content-Type: application/octet-stream&#xd;
                     </elementProp>
                     <elementProp name="Referer" elementType="Header">
                       <stringProp name="Header.name">Referer</stringProp>
-                      <stringProp name="Header.value">https://194.165.147.114/ar/eservices/login.aspx</stringProp>
+                      <stringProp name="Header.value">http://194.165.147.114/ar/eservices/login.aspx</stringProp>
                     </elementProp>
                     <elementProp name="Content-Type" elementType="Header">
                       <stringProp name="Header.name">Content-Type</stringProp>
@@ -8399,10 +8391,6 @@ Content-Type: application/octet-stream&#xd;
                     <elementProp name="Content-Length" elementType="Header">
                       <stringProp name="Header.name">Content-Length</stringProp>
                       <stringProp name="Header.value">13262</stringProp>
-                    </elementProp>
-                    <elementProp name="Connection" elementType="Header">
-                      <stringProp name="Header.name">Connection</stringProp>
-                      <stringProp name="Header.value">keep-alive</stringProp>
                     </elementProp>
                     <elementProp name="Upgrade-Insecure-Requests" elementType="Header">
                       <stringProp name="Header.name">Upgrade-Insecure-Requests</stringProp>
@@ -8459,7 +8447,7 @@ Content-Type: application/octet-stream&#xd;
                 <stringProp name="HTTPSampler.response_timeout"></stringProp>
                 <stringProp name="HTTPSampler.protocol">${Protocol}</stringProp>
                 <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-                <stringProp name="HTTPSampler.path">ar/eservices/show.aspx</stringProp>
+                <stringProp name="HTTPSampler.path">/ar/eservices/show.aspx</stringProp>
                 <stringProp name="HTTPSampler.method">GET</stringProp>
                 <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
                 <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -8493,11 +8481,7 @@ Content-Type: application/octet-stream&#xd;
                     </elementProp>
                     <elementProp name="Referer" elementType="Header">
                       <stringProp name="Header.name">Referer</stringProp>
-                      <stringProp name="Header.value">https://194.165.147.114/ar/eservices/login.aspx</stringProp>
-                    </elementProp>
-                    <elementProp name="Connection" elementType="Header">
-                      <stringProp name="Header.name">Connection</stringProp>
-                      <stringProp name="Header.value">keep-alive</stringProp>
+                      <stringProp name="Header.value">http://194.165.147.114/ar/eservices/login.aspx</stringProp>
                     </elementProp>
                     <elementProp name="Upgrade-Insecure-Requests" elementType="Header">
                       <stringProp name="Header.name">Upgrade-Insecure-Requests</stringProp>
@@ -8570,7 +8554,7 @@ Content-Type: application/octet-stream&#xd;
                 <stringProp name="HTTPSampler.response_timeout"></stringProp>
                 <stringProp name="HTTPSampler.protocol">${Protocol}</stringProp>
                 <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-                <stringProp name="HTTPSampler.path">ar/eservices/taxpro1.aspx</stringProp>
+                <stringProp name="HTTPSampler.path">/ar/eservices/taxpro1.aspx</stringProp>
                 <stringProp name="HTTPSampler.method">GET</stringProp>
                 <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
                 <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
