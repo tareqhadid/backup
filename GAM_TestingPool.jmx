@@ -7989,7 +7989,7 @@ Content-Type: application/octet-stream&#xd;
             </FloatProperty>
           </ThroughputController>
           <hashTree>
-            <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="GAM_001_Navigate_ToMainPage" enabled="true">
+            <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="GAM_001_Navigate_ToMainPage" enabled="false">
               <boolProp name="TransactionController.includeTimers">false</boolProp>
               <boolProp name="TransactionController.parent">true</boolProp>
             </TransactionController>
@@ -9011,7 +9011,7 @@ Content-Type: application/octet-stream&#xd;
             </FloatProperty>
           </ThroughputController>
           <hashTree>
-            <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="GAM_001_Navigate_ToMainPage" enabled="true">
+            <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="GAM_001_Navigate_ToMainPage" enabled="false">
               <boolProp name="TransactionController.includeTimers">false</boolProp>
               <boolProp name="TransactionController.parent">true</boolProp>
             </TransactionController>
