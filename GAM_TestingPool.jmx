@@ -24,7 +24,7 @@
           </elementProp>
           <elementProp name="param_Thinktime" elementType="Argument">
             <stringProp name="Argument.name">param_Thinktime</stringProp>
-            <stringProp name="Argument.value">1500</stringProp>
+            <stringProp name="Argument.value">2000</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="param_MainURL" elementType="Argument">
